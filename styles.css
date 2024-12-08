@@ -21,15 +21,26 @@ body {
 .container {
   background-color: white;
   text-align: center;
+  /* Set width and height */
   width: 320px;
   height: 499px;
+  /* Set position */
   position: absolute;
   left: 27.5px;
   top: 156.5px;
+  /* Set padding */
   padding: 16px 16px 40px 16px;
+  /* Set border curve at corners */
   border-radius: 20px;
+  /* Set flexbox direction */
   display: flex;
   flex-direction: column;
+}
+
+.qr-code {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
 }
 
 .text-preset-1 {
@@ -39,7 +50,7 @@ body {
   /* Font weight for font Outfit (bold) */
   font-weight: 700;
   /* text color */
-  color: var(slate-900);
+  color: var(--slate-900);
 }
 
 .text-preset-2 {
@@ -49,7 +60,7 @@ body {
   /* Font weight for font Outfit (regular) */
   font-weight: 400;
   /* text color */
-  color: var(slate-500);
+  color: var(--slate-500);
 }
 
 /* Format attribution */
