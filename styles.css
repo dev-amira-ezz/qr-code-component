@@ -1,23 +1,35 @@
 /* Global color variables */
 :root {
-  --slate-900: #1F314F;
-  --slate-500: #68778D;
-  --slate-300: #D5E1EF;
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+}
+
+* {
+  /* Include border, padding and margins in box size */
+  box-sizing: border-box;
 }
 
 body {
-  background-color: var(slate-300);
+  background-color: var(--slate-300);
+  /* Formatting for font Outfit */
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .container {
   background-color: white;
-}
-
-/* Formatting for font Outfit */
-.outfit {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+  text-align: center;
+  width: 320px;
+  height: 499px;
+  position: absolute;
+  left: 27.5px;
+  top: 156.5px;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .text-preset-1 {
@@ -49,4 +61,3 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
