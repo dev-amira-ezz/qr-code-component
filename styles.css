@@ -18,6 +18,7 @@ body {
   font-style: normal;
   /* Set body as a flexbox */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   /* Set body height */
@@ -39,6 +40,15 @@ body {
   flex-direction: column;
 }
 
+/* Set small landscape devices to display full content arranged vertically */
+@media only screen and (orientation: landscape) and (max-width: 1024px) {
+  .container {
+    width: 499px;
+    height: 320px;
+    flex-direction: row-reverse;
+    gap: 1rem;
+  }
+}
 .qr-code {
   width: 288px;
   height: 288px;
