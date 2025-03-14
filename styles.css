@@ -16,16 +16,16 @@
 /* Setup website fonts */
 @font-face {
   font-family: "Outfit";
-  src: url("/fonts/Outfit-Regular.woff2") format("woff2"),
-    /* Modern browsers */ url("/fonts/Outfit-Regular.woff") format("woff"); /* Fallback */
+  src: url("./fonts/Outfit-Regular.woff2") format("woff2"),
+    /* Modern browsers */ url("./fonts/Outfit-Regular.woff") format("woff"); /* Fallback */
   font-weight: 400;
   font-display: swap; /* Prevents delays */
 }
 
 @font-face {
   font-family: "Outfit";
-  src: url("/fonts/Outfit-Bold.woff2") format("woff2"),
-    /* Modern browsers */ url("/fonts/Outfit-Bold.woff") format("woff"); /* Fallback */
+  src: url("./fonts/Outfit-Bold.woff2") format("woff2"),
+    /* Modern browsers */ url("./fonts/Outfit-Bold.woff") format("woff"); /* Fallback */
   font-weight: 700;
   font-display: swap; /* Prevents delays */
 }
