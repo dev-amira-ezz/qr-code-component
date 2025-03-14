@@ -1,0 +1,43 @@
+:root {
+    /* colors */
+    --slate-900: #1f314f;
+    --slate-500: #68778d;
+    --slate-300: #d5e1ef;
+    /* fonts */
+    /* title */
+    --font-size-title: 1.4rem;
+    --line-height-title: 1.2;
+    /* content */
+    --font-size-content: 0.9rem;
+    --line-height-content: 1.4;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/fonts/Outfit-Regular.woff2') format('woff2'),  /* Modern browsers */
+         url('/fonts/Outfit-Regular.woff') format('woff');    /* Fallback */
+    font-weight: 400;
+    font-display: swap; /* Prevents delays */
+  }
+  
+  @font-face {
+    font-family: 'Outfit';
+    src: url('/fonts/Outfit-Bold.woff2') format('woff2'),  /* Modern browsers */
+         url('/fonts/Outfit-Bold.woff') format('woff');    /* Fallback */
+    font-weight: 700;
+    font-display: swap; /* Prevents delays */
+  }
+
+  .title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: var(--font-size-title);
+    line-height: var(--line-height-title);
+  }
+
+  .content {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: var(--font-size-content);
+    line-height: var(--line-height-content);
+  }
